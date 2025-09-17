@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Alembic migrations cache
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# Local env files
+.env
+*.env
+
+# SQLite (if used for local dev/test)
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock
